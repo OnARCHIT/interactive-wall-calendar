@@ -1,0 +1,38 @@
+/* reset */
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+/* body */
+
+.appBody{
+
+font-family: Inter, system-ui, sans-serif;
+
+background:#f1f5f9;
+
+color:#111827;
+
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:flex-start;
+
+padding:20px;
+
+}
+
+/* container */
+
+.appContainer{
+
+width:100%;
+max-width:1200px;
+
+}
