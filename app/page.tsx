@@ -1,11 +1,15 @@
 import WallCalendar from "@/components/calendar/WallCalendar";
 
-export default function Page(){
+export default function Page() {
 
- return(
+  return (
 
- <WallCalendar/>
+    <div className="pageWrapper">
 
- );
+      <WallCalendar/>
+
+    </div>
+
+  );
 
 }
